@@ -3,10 +3,6 @@ import { createContext } from 'preact';
 import { useContext, useEffect, useRef, useState } from 'preact/hooks';
 import styled from 'styled-components';
 
-mapboxgl.accessToken =
-  'pk.eyJ1IjoiaG9tZWlzIiwiYSI6ImNrYWp6NnltbTBhangyemxic2UxY2RmOTcifQ.B5GFtgOdAOVEPbVdzm0fKQ';
-mapboxgl.prewarm();
-
 const Container = styled.main`
   width: 100vw;
   height: 100vh;
