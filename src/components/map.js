@@ -1,4 +1,3 @@
-import mapboxgl from 'mapbox-gl';
 import { createContext } from 'preact';
 import { useContext, useEffect, useRef, useState } from 'preact/hooks';
 import styled from 'styled-components';

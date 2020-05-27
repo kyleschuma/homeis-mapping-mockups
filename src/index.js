@@ -1,4 +1,3 @@
-import mapboxgl from 'mapbox-gl';
 import App from './app';
 import token from './mapbox-token';
 import './ress';

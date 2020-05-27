@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "preact build",
+    "build": "preact build --no-prerender --template src/template.html --dest docs",
     "serve": "sirv build --cors --single",
     "dev": "preact watch",
     "lint": "eslint src"
@@ -17,7 +17,8 @@
     ]
   },
   "eslintIgnore": [
-    "build/*"
+    "build/*",
+    "docs/*"
   ],
   "devDependencies": {
     "eslint": "^6.0.1",
