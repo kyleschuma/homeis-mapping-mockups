@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "homeis",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "preact build",
+    "serve": "sirv build --cors --single",
+    "dev": "preact watch",
+    "lint": "eslint src"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-synacor",
+    "indent": [
+      2,
+      2
+    ]
+  },
+  "eslintIgnore": [
+    "build/*"
+  ],
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-synacor": "^3.0.4",
+    "preact-cli": "^3.0.0-rc.6",
+    "sirv-cli": "^0.4.5"
+  },
+  "dependencies": {
+    "mapbox-gl": "^1.10.1",
+    "preact": "^10.1.0",
+    "preact-render-to-string": "^5.1.2",
+    "react-icons": "^3.10.0",
+    "styled-components": "^5.1.0",
+    "styled-is": "^1.3.0"
+  }
+}
